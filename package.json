@@ -6,9 +6,10 @@
   "company": "fotontech.io",
   "developers": "Igor Lourenço, Allan Neto, Daniel Cunha",
   "license": "MIT",
-    "scripts": {
-      "prepare": "husky install"
-    },
+  "scripts": {
+    "prepare": "husky install",
+    "preinstall": "node preinstall.js"
+  },
   "workspaces": {
     "packages": [
       "packages/*"
@@ -20,4 +21,3 @@
     "husky": "^6.0.0"
   }
 }
-
